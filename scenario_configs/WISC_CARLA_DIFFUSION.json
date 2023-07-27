@@ -54,7 +54,7 @@
         },
         "module": "attack_src.denoising_diffusion_mask",
         "name": "get_art_model_robust",
-        "weights_file": "packaged_weights_robust.pt",
+        "weights_file": "packaged_weights_robust_diffusion.pt",
         "wrapper_kwargs": {}
     },
     "scenario": {
@@ -65,7 +65,7 @@
     },
     "sysconfig": {
         "docker_image": "twosixarmory/pytorch/diffusion",
-        "external_github_repo": null,
+        "external_github_repo": "gabrielgozum/carla-object-detection-diffusion",
         "gpus": "all",
         "output_dir": null,
         "output_filename": null,

@@ -1,4 +1,4 @@
-FROM twosixarmory/pytorch
+FROM twosixarmory/armory:latest
 MAINTAINER gozum
 RUN /opt/conda/bin/pip install einops
 RUN /opt/conda/bin/pip install ema_pytorch
